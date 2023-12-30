@@ -1,0 +1,39 @@
+
+INSERT INTO [dbo].[MemberDetails]
+           ([MemberId]
+           ,[FullName]
+           ,[DOB]
+           ,[Email]
+           ,[Password]
+           ,[MobileNumber]
+           ,[OtherNumber]
+           ,[Gender]
+           ,[Address]
+           ,[StartDate]
+           ,[EndDate]
+           ,[PackageDetails]
+           ,[PurchaseDate]
+           ,[PurchaseBy]
+           ,[CreatedDate]
+           ,[UpdatedDate]
+           ,[Status]
+           ,[IsActive])
+     VALUES
+           ('M0002'
+           ,'FirsName MiddleName LastName'
+           ,GETDATE()
+           ,'FirstName123#gmail.com'
+           ,'name@123'
+           ,'+91 9988445624'
+           ,'+91 9016399045'
+           ,'Male'
+           ,'Maharastra'
+           ,GETDATE()
+           ,GETDATE()
+           ,'Shimla : 10 Days 9 Nigth'
+           ,GETDATE()
+           ,'FirstName'
+           ,GETDATE()
+           ,GETDATE()
+           ,'Active'
+           ,1)

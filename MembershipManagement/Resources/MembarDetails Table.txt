@@ -1,0 +1,24 @@
+Tables
+
+
+MumberDetails
+
+Id primary
+MemberId nvarchar(10) -M0001,M0002
+FullName nvarchar(100)
+DOB 
+Email
+Password
+MobileNumber
+OtherNumber varchar(15)
+Gender: 
+Address nvarchar(max)
+StartDate:
+EndDate:
+PackageDetails:
+PurchaseDate:
+PurchaseBy:
+CreatedDate datetime
+UpdatedDate datetime
+Status 
+IsActive

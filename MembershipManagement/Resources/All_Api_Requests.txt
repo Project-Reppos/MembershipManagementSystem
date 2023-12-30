@@ -1,0 +1,63 @@
+
+----------------------Superior Holidays Api's Request---------------------------
+
+	===> "Login"    		:
+								{
+								  "email": "baburav12@gmail.com",
+								  "password": "baburav@123"
+								}
+	
+	===> "GetMemberList"	:
+								{
+								  "pageNumber": 1,
+								  "itemPerPage": 2
+								}
+	
+	===> "AddMemberList"	:
+								{
+								  "memberId": "string",
+								  "fullName": "Pooja Gurav",
+								  "dob": "2023-04-06T05:18:13.868Z",
+								  "email": "pooja12345@gmail.com",
+								  "password": "pooja@123",
+								  "mobileNumber": "+91 9988776655",
+								  "otherNumber": "+91 9089785667",
+								  "gender": "Female",
+								  "address": "Ahmedabad",
+								  "startDate": "2023-04-06T05:18:13.868Z",
+								  "endDate": "2023-04-06T05:18:13.868Z",
+								  "packageDetails": "Shimala: 5 Days 4 Night ",
+								  "purchaseDate": "2023-04-06T05:18:13.868Z",
+								  "purchaseBy": "Pooja",
+								  "status": "Active"
+								}
+								
+	===> "EditmemberDetails" :	
+								{
+									
+								  "memberId": "M2670",
+								  "fullName": "Pooja Gurav",
+								  "dob": "2023-04-06T05:18:13.868Z",
+								  "email": "pooja12345@gmail.com",
+								  "password": "pooja@123",
+								  "mobileNumber": "+91 9988776655",
+								  "otherNumber": "+91 9089785667",
+								  "gender": "Female",
+								  "address": "Ahmedabad",
+								  "startDate": "2023-04-06T05:18:13.868Z",
+								  "endDate": "2023-04-06T05:18:13.868Z",
+								  "packageDetails": "Shimala: 5 Days 4 Night ",
+								  "purchaseDate": "2023-04-06T05:18:13.868Z",
+								  "purchaseBy": "Pooja",
+								  "status": "Active"	
+								}
+	
+	===> "DeleteMemberByMemberId" :
+									{
+									  "memberId": "M53"
+									}
+
+								
+								
+								
+								
